@@ -1,0 +1,344 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+	background: #000;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	background: #F0FFF0;
+
+}
+.header .navbar img{
+	transition: .4s;
+}
+.header .navbar img:hover{
+	transform: scale(1.1);
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+	font-size: 16px;
+    line-height: 1.2em;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 30px;
+    transition: 0.4s;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover{
+	color:#21B573 ;
+	transform: scale(1.1);
+}
+.header .navbar .navbar-nav .nav-item .nav-link:focus{
+	color:#21B573 ;
+	transform: scale(1.1);
+}
+.header .navbar .navbar-nav .nav-item .btn-success{
+	padding: 8px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #21B573;
+    color: #fff;
+    border: 1px solid #21B573;
+    margin: 0px 0px 0px 30px;
+    transition: 0.4s;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3)
+
+}
+.header .navbar .navbar-nav .nav-item .btn-success:hover{
+	transform: scale(1.1);
+	background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+
+}
+.header .navbar .navbar-nav .nav-item .btn-success:focus{
+	transform: scale(1.1);
+	background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-banner{
+	width: 100%;
+}
+
+.inner-banner h4{
+	font-size: 16px;
+	line-height: 1.2em;
+	font-weight: 400;
+	color: #FD511A;
+	margin: 0px 0px 20px;
+
+}
+.inner-banner h1{
+	font-size: 48px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: #000;
+	margin: 0px 0px 20px;
+}
+.inner-banner h1 span{
+	color: #21B573;
+}
+.inner-banner p{
+	font-size: 16px;
+	line-height: 36px;
+	font-weight: bolder;
+	color: #000;
+	margin: 0px 0px 40px;
+}
+	
+.inner-banner .btn-success{
+	padding: 10px 32px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: #21B573;
+    color: #fff;
+    border: 1px solid #000;
+    transition: 0.4s;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3)
+
+}
+.inner-banner .btn-success:hover{
+	transform: scale(1.1);
+	background: transparent;
+    color: #21B573;
+    border: 1px solid #000;
+}
+.inner-banner .btn-success:focus{
+	transform: scale(1.1);
+	background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px 80px;
+}
+.inner-feature{
+	width: 100%;
+	padding: 55px;
+	background: #F8FFFB;
+	text-align: center;
+	border-radius: 10px;
+	transition: .4s;
+
+}
+.inner-feature:hover{
+	transform: scale(1.1);
+	background:#FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+;
+}
+.inner-feature img{
+	width: 66px;
+	height: 85px;
+	
+}
+.inner-feature h4{
+	font-size: 24px;
+	font-weight:500 ;
+	line-height: 1.2em;
+	text-transform: capitalize;
+	color: #000;
+	margin: 30px 0px 0px;
+}
+.inner-feature p{
+	font-size: 16px;
+	font-weight:400 ;
+	line-height: 1.7em;
+	color: #000;
+	margin: 0px 0px 0px;
+}
+.courses{
+	width: 100%;
+	margin: 10px 0px 80px;
+}
+.courses h1{
+	font-size: 36px;
+	font-weight:700 ;
+	line-height: 1.2em;
+	text-transform: capitalize;
+	color: #000;
+	text-align: center;
+	margin: 0px 0px 40px;
+}
+.courses .card{
+	padding: 25px 20px;
+	border: 0px;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+
+}
+.courses .card img{
+	transition: .4s;
+}
+.courses .card img:hover{
+	transform: scale(1.1);
+}
+.courses .card .card-body{
+	padding: 20px 0px 0px;
+
+}
+.courses .card .card-body .card-title{
+	font-size: 24px;
+	font-weight:600 ;
+	line-height: 1.2em;
+	text-transform: capitalize;
+	color: #000;
+
+}
+.courses .card .card-body .card-text{
+	font-size: 16px;
+	font-weight:400 ;
+	line-height: 1.7em;
+	color: #000;
+	margin: 0px 0px 0px;
+
+}
+.courses .card .card-body .btn-success{
+	margin: 20px 0px 35px;
+	padding: 10px 30px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: #21B573;
+    color: #fff;
+    border: 1px solid #21B573;
+    transition: 0.4s;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3)
+
+}
+.courses .card .card-body .btn-success:hover{
+	transform: scale(1.1);
+	background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+
+}
+.courses .card .card-body .btn-success:focus{
+	transform: scale(1.1);
+	background: transparent;
+    color: #21B573;
+    border: 1px solid #21B573;
+
+}
+.card .card-body .info{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	color: #000;
+	text-transform: capitalize;
+}
+.card .card-body .info img{
+	width: 18px;
+	height: 20px;
+	margin: 0px 5px 0px 0px;
+}
+.card .text-right{
+	text-align: right;
+}
+
+.testimonial{
+	width: 100%;
+	padding: 60px 0px;
+	margin: 0px 0px 60px;
+	
+}
+.testimonial h1{
+	font-size: 36px;
+	font-weight:700 ;
+	line-height: 1.2em;
+	text-transform: capitalize;
+	color: #000;
+	text-align: center;
+	margin: 0px 0px 40px;
+}
+.testimonial .client-image{
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	margin: 0px 0px 0px 20px;
+	transition: .4s;
+
+
+}
+.testimonial .client-image:hover{
+	transform: scale(1.1);
+}
+.testimonial p{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.7em;
+	color: #000;
+	margin: 20px 0px 0px;
+}
+
+.footer{
+	width: 100%;
+	padding: 80px 0px 10px;
+	background: #282531;
+}
+.footer p{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.7em;
+	color: #fff;
+}
+.footer .widget{
+	padding: 0px 0px 80px;
+	width: 100%;
+}
+.footer .widget ul{
+	display: block;
+
+}
+.footer .widget li{
+	list-style: none;
+	display: block;
+}
+.footer .widget li .active{
+	font-weight: 700;
+}
+.footer .widget li a{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	margin: 0px 0px 5px;
+	transition: .4s;
+
+}
+.footer .widget li a:hover{
+	color:#21B573 ;
+	transform: scale(1.1);
+}
+
+.footer .copyright{
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+
+}
